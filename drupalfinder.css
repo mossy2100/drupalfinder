@@ -1,0 +1,269 @@
+html, body, p, pre, h1, h2, h3, li, td, th, input, select, textarea {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+html, body, p, pre, li, td, th, input, select, textarea {
+  font-size: 11px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1d72b7;
+}
+
+a:hover {
+  color: #ffbf00;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+table, tr, td, th {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+td, th {
+  padding-bottom: 4px;
+}
+
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+#header, #footer {
+  background-image: url(images/blue-gradient-bg.png);
+  background-repeat: repeat-x;
+}
+
+#main {
+  background-color: white;
+}
+
+#header-content,
+#main-content,
+#footer-content {
+  width: 800px;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+#main-content {
+  margin: 20px auto;
+}
+
+#footer {
+  height: 100px;
+}
+
+#menu {
+  padding: 10px 0 10px;
+  height: 28px;
+}
+
+#menu a {
+  height: 20px;
+  line-height: 20px;
+  float: left;
+  padding: 4px 10px;
+  margin: 0 10px 0 0;
+}
+
+#pagination {
+  height: 27px;
+}
+
+#pagination a {
+  width: 20px;
+  padding: 5px;
+  margin: 0 2px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#menu a,
+#pagination a {
+  background-color: #eee;
+  color: #555;
+  font-size: 13px;
+  text-decoration: none;
+  -moz-border-radius:     5px;
+  -webkit-border-radius:  5px;
+  -khtml-border-radius:   5px;
+  border-radius:          5px;
+}
+
+
+#menu a:hover,
+#menu a.active,
+#pagination a:hover,
+#pagination a.active {
+  background-color: #ffbf00;
+  color: white;
+}
+
+#search_table th {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 2px;
+  padding-right: 10px;
+}
+
+#search-btn-row {
+  text-align: right;
+}
+
+#where_hosted_table th {
+  width: 80px;
+  padding: 0;
+}
+
+#keyword {
+  width: 250px;
+}
+
+#host {
+  width: 150px;
+}
+
+#link {
+  width: 300px;
+}
+
+.search_result {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eee;
+  -moz-border-radius:     5px;
+  -webkit-border-radius:  5px;
+  -khtml-border-radius:   5px;
+  border-radius:          5px;
+}
+
+.search_result a {
+  padding: 2px;
+  -moz-border-radius:     3px;
+  -webkit-border-radius:  3px;
+  -khtml-border-radius:   3px;
+  border-radius:          3px;
+  position: relative;
+  left: -2px;
+}
+
+.search_result a:hover {
+  background-color: #ffbf00;
+  color: white;
+  text-decoration: none;
+}
+
+.even {
+  background-color: #ddf0ff;
+}
+
+.search_result h3,
+.search_result p {
+  margin: 2px 0;
+}
+
+#pagination {
+  margin: 20px 0;
+}
+
+#page {
+  font-size: 13px;
+  padding: 5px 5px 5px 0;
+  margin: 0;
+  float: left;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #00cc00;
+}
+
+.blue {
+  color: #1d72b7;
+}
+
+.orange {
+  color: #ffbf00;
+}
+
+.grey {
+  color: #999;
+}
+
+.stats_drupal_ver,
+.stats_drupal_ver_bar,
+.stats_drupal_ver_info {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+.stats_drupal_ver {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  border-right: solid 1px #bbb;
+}
+
+.stats_drupal_ver_bar {
+  height: 30px;
+  margin: 5px;
+}
+
+.stats_bar {
+  clear: both;
+  height: 40px;
+  border-bottom: solid 1px #bbb;
+}
+
+#stats_drupal_ver_graph {
+  margin-top: 10px;
+  border: solid 1px #bbb;
+  border-bottom: none;
+}
+
+.disabled {
+  color: #ccc;
+}
+
+#search_string {
+  width: 254px;
+}
+
+#host_pattern {
+  width: 100px;
+  margin: 0;
+}
+
